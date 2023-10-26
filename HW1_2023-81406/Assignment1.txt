@@ -1,0 +1,9 @@
+About "Find 4 ways to invoke destructor implicitly":
+
+- We'll treat the main() function and other functions ( e.g. user functions int my_add(int x, int y) { ... } ) differently
+
+    <-- Exiting the main() function is the same with the termination of a program
+
+    <-- Exiting a user-defined function is just exiting a function
+
+- Loops (for, while ... ) and controls (if, switch ... ) are treated as the same
